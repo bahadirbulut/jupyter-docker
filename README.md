@@ -24,5 +24,5 @@ Enter the password: "root"
 
 ## Stopping the container
 ```bash
-docker rm -f docker-data-science
+docker rm -f jupyter-docker
 ```
