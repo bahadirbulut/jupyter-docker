@@ -5,6 +5,8 @@ Using this Dockerfile you can create a Docker image for running Jupyter Notebook
 with Anaconda and Tensorflow installed.
 
 ## Building the Docker image
+Create a folder "notebooks" in this same folder, to save your notebooks, then run the following
+command:
 ```bash
 docker build -t jupyter-docker .
 ```
