@@ -14,7 +14,7 @@ docker build -t jupyter-docker .
 ## Running the container
 Enter the following command from terminal:
 ```bash
-docker run --name jupyter-docker -p 8888:8888 -v "$PWD/notebooks:/opt/notebooks" -d jupyter-docker
+docker run --name jupyter-docker -p 8888:8888 -v $PWD/notebooks:/opt/notebooks -d jupyter-docker
 ```
 
 Open the following link from your browser:
